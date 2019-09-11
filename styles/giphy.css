@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+body {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px auto;
+  font-size: 12px;
+  font-family: "Quicksand", sans-serif;
+  max-width: 1250px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+  background: #4ecdc4;
+  margin: 0px;
+  padding: 20px;
+  padding-left: 60px;
+  color: #1a535c;
+}
+
+.column {
+  background: #fff;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.button {
+  position: relative;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ff6b6b;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 5px #d15858;
+}
+
+.button:hover {
+  box-shadow: 0 3px #d15858;
+  top: 2px;
+}
+
+.button:active {
+  box-shadow: none;
+}
+
+.input {
+  outline: none;
+  border: 1px solid #d15858;
+  width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px #d15858;
+  margin: 10px 5px 10px 0px;
+}
+
+.color:hover img {
+  filter: grayscale(10%);
+  opacity: 0.6;
+}
+
+.color img {
+  border-radius: 6px;
+}
+
+.color {
+  margin: 10px 10px 10px 0px;
+  display: inline-block;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+}
+
+#display {
+  max-width: 1250px;
+}

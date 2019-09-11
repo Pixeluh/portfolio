@@ -47,13 +47,15 @@
    color: #fff;
  }
 
+  h2, h3 {
+    color: #ff5d73;
+  }
+
  h2 {
-   color: #ff5d73;
    font-size: 1.7rem;
  }
 
  h3 {
-   color: #ff5d73;
    font-size: 1.3rem;
  }
 
@@ -81,7 +83,8 @@
    text-decoration: none;
  }
 
- a:hover, footer li:hover {
+ a:hover,
+ footer li:hover {
    transition: .1s ease-in-out;
    color: #f9a1bc;
  }
@@ -138,6 +141,7 @@
 
  .project_item {
    justify-content: center;
+   padding-top: 60px;
    padding-bottom: 20px;
  }
 
